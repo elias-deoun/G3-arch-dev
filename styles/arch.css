@@ -31,6 +31,10 @@
   border: none;
 
 }
+.sec-title{
+  font-size: 2.8rem;
+  font-weight: 700;
+}
 main > section{
 margin-top: 130px;
 }
@@ -89,10 +93,7 @@ main{
   margin-left: 130px;
   max-width: 530px;
 }
-.feature-title{
-  font-size: 2.8rem;
-  font-weight: 700;
-}
+
 #quick{
   font-weight: 500;
 }
@@ -101,7 +102,13 @@ main{
 }
 
 @media screen and (max-width: 576px) {
-  .navbar, .nav-links{
+  .navbar, .nav-links, .teams{
     flex-direction: column;
   }
+.team-image{
+  grid-template-columns: repeat(1,1fr);
+}
+.features{
+  margin-left: 20px;
+}
 }
