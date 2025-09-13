@@ -128,15 +128,32 @@ main{
 .fact-feature{
   max-width: 540px;
 }
+/* sponsers */
+.sponsers-companies{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+}
+
+.sponsers-companies img{
+  filter: grayscale(100%);
+}
 
 @media screen and (max-width: 576px) {
   .navbar, .nav-links, .teams{
     flex-direction: column;
   }
-.team-image{
+.team-image, .facts-container, .sponsers-companies{
   grid-template-columns: repeat(1,1fr);
 }
 .features{
   margin-left: 20px;
+}
+.facts-container{
+  justify-content: center;
+  gap: 20px;
+}
+.sponsers-cpompanies{
+  justify-items: center;
+  gap: 40px;
 }
 }
