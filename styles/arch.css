@@ -100,6 +100,25 @@ main{
 #spa{
   color: #FF900E;
 }
+/* love and enjoy */
+#love-enjoy{
+  border-left: 5px solid #FF900E;
+  padding-left: 5px;
+}
+.features-card{
+  padding: 30px;
+box-shadow: 0 4px 30px 0 rgba(73, 14, 14, 0.06);
+margin-bottom: 20px;
+}
+.features-card .card-title{
+font-weight: 600;
+font-size: 1.25rem;
+margin-top: 0;
+margin-bottom: 0;
+
+}
+
+
 /* some facts related */
 .fact{
   border: 1px solid #FF900E;
