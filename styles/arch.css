@@ -8,3 +8,35 @@
   font-weight: 400px;
   font-style: normal;
 }
+/* shared style */
+.display{
+  display: flex;
+}
+.text-c{
+  color: rgba(66, 66, 66, 1);
+}
+.text-gray{
+  color: rgba(217, 217, 217, 1);
+}
+.primary-bg{
+  background-color: rgba(255, 144, 14, 0.1);
+}
+/* header styles */
+.navbar{
+  justify-content: space-between;
+}
+
+/* navbar related styles */
+.nav-item{
+  list-style: none;
+  margin-right: 30px;
+}
+.nav-link{
+  text-decoration: none;
+}
+.navbar, .banner{
+  
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
